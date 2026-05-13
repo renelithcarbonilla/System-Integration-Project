@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-header('Content-Type: application/json');
+header('Content-Type: application/json'); //API Payslip
 include('../db.php'); 
 
 if (isset($_GET['user_id'])) {

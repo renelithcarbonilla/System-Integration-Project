@@ -1,5 +1,5 @@
 <?php
-    require("db.php");
+    require("db.php"); // Logic: Calculate Net Pay with deductions
     
     // Get POST data safely
     $id = $_POST['salary_id'] ?? null;

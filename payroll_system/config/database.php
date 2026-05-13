@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$dbname = "payroll"; // make sure this matches your actual DB name
+$dbname = "payroll"; // DB: Connection setup for MySQL database
 $username = "root";
 $password = "";
 

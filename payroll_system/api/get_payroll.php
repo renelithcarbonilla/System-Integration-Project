@@ -1,6 +1,6 @@
 <?php
 // get_payroll.php
-header('Content-Type: application/json');
+header('Content-Type: application/json'); //API Payroll
 
 $emp_id = $_GET['emp_id'];
 

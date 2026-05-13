@@ -1,7 +1,7 @@
 <?php
 include('db.php');
 include('auth.php');
-
+// API: Endpoint for fetching employee info
 // Mao ni ang logic para sa pag-add og employee ug automatic user account
 if (isset($_POST['submit']) && $_POST['submit'] !== "") {
   $lname    = $_POST['lname'];

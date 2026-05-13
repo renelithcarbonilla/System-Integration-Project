@@ -1,5 +1,5 @@
 <?php
-header('Content-Type: application/json');
+header('Content-Type: application/json'); //API Attendance
 include('../db.php');
 
 $response = array();
